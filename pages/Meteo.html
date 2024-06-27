@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="index.js" defer></script>
+        <title>Info h24</title>
+    </head>
+<body class="font-mono">
+    <section class="flex flex-row justify-between">
+        <div class="flex flex-col w-4/5">
+            <header class="flex flex-row justify-between items-center shadow-2xl w-full bg-white py-4 px-8 h-1/6">
+                <div class="flex flex-row justify-start items-center gap-8 ">
+                    <img class="h-16" src="../img/world.png" alt="icon">
+                    <h1 class="text-xl tracking-widest">YOUR INFO H24</h1>
+                </div>
+                <div class="flex flex-row items-center">
+                    <img class="flex flex-row items-center" src="../img/se-déconnecter.png" href="../index.html" alt="">
+                    <a href="../index.html" class="text-blue-600">Déconnexion</a>    
+                </div>   
+            </header>
+        
+            <div class="w-full flex flex-col gap-8">
+                    <p class="text-4xl text-center text-red-600 m-6">METEO</p>
+                    <main class=" text-xl  font-extrabold flex flex-row justify-evenly items-center">
+                        <h1>Vendredi</h1>
+                        <h1>Samedi</h1>
+                        <h1>Dimanche</h1>
+                    </main>
+                    <section class="flex flex-row justify-evenly items-center">
+                         <p> Min : 8°, Max: 15°</p>
+                         <p> Min : 5°, Max: 11°</p>
+                         <p> Min : 8°, Max: 12°</p>
+                    </section>
+                    <section class="flex flex-row justify-evenly items-center">
+                        <img src="../img/nuageux (1).png"  class="w-3/12 border-r-2 p-3 hover:animate-bounce" alt="nuage">
+                        <img src="../img/soleil.png" class="w-3/12 border-r-2 p-3 hover:animate-bounce" alt="soleil">
+                        <img src="../img/nuageux (1).png" class="w-3/12 hover:animate-bounce" alt="nuage">
+                    </section>
+                
+                    
+            </div>  
+        </div>
+        <div class="flex flex-col shadow-2xl w-1/5 p-6 text-violet-600 bg-gray-100 justify-between h-screen">
+            <a href="Live.html" class="hover:text-emerald-500">Live</a>
+            <a href="People.html" class="hover:text-emerald-500">People</a>
+            <a href="Politique.html" class="hover:text-emerald-500 text-clip">Politique</a>
+            <a href="Meteo.html" class="hover:text-emerald-500">Météo</a>
+            <a href="Sport.html" class="hover:text-emerald-500">Sport</a> 
+        </div>
+    </section>
+    
+</body>
+</html>
